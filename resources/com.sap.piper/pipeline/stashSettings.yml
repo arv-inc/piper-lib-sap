@@ -21,6 +21,12 @@ Acceptance:
   - deployDescriptor
   stashes: []
 
+Performance:
+  unstash:
+    - buildResult
+    - deployDescriptor
+  stashes: []
+
 Release:
   unstash:
   - buildResult
