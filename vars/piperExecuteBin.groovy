@@ -26,9 +26,15 @@ void call(Map parameters = [:], String stepName, String metadataFile, List crede
 
         String piperGoPath = parameters.piperGoPath ?: './piper'
 
+        echo "parameters 1: ${parameters}"
+
         prepareExecution(script, utils, parameters)
+
+        echo "parameters 2: ${parameters}"
         prepareMetadataResource(script, metadataFile)
+
         Map stepParameters = prepareStepParameters(parameters)
+        echo "parameters 3: ${stepParameters}"
 
         withEnv([
             "PIPER_parametersJSON=${groovy.json.JsonOutput.toJson(stepParameters)}",
