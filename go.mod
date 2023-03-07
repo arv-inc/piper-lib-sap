@@ -6,7 +6,7 @@ require (
 	github.com/360EntSecGroup-Skylar/excelize/v2 v2.3.0
 	github.com/GoogleContainerTools/container-diff v0.15.0
 	github.com/Jeffail/gabs/v2 v2.6.0
-	github.com/Masterminds/goutils v1.1.0 // indirect
+	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/sprig v2.22.0+incompatible
 	github.com/Microsoft/hcsshim v0.8.9 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20200819183940-29e1ff8eb0bb // indirect
